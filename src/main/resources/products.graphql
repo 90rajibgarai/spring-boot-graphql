@@ -1,0 +1,28 @@
+type Product {
+	id: String,
+	name: String,
+	category: Category,
+	company: Company,
+	price: Float,
+	imageUrl: [String],
+	dateAdded: String
+}
+
+type Category {
+	id: Int,
+	name: String
+}
+
+type Company {
+	id: Int,
+	name: String
+}
+
+schema {
+	query: Query
+}
+
+type Query {
+	allProducts : [Product]
+	product(id: String): Product
+}
