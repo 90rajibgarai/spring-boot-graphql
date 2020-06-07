@@ -27,3 +27,17 @@ Different between REST API and GraphQL as follows :
 Official Link of GraphQL :
 ----------------------------------------------------------------------------------------------------------------------------------------
 http://howtographql.com/
+
+Architectural - Uses Cases-1
+----------------------------------------------------------------------------------------------------------------------------------------
+
+<img src="https://github.com/90rajibgarai/doc-important-links/blob/master/Architectures/GraphQL-Usecases/Usecase-1.png">
+
+Architectural - Uses Cases-2
+----------------------------------------------------------------------------------------------------------------------------------------
+<img src="https://github.com/90rajibgarai/doc-important-links/blob/master/Architectures/GraphQL-Usecases/Usecase-2.png">
+
+Architectural - Uses Cases-3
+----------------------------------------------------------------------------------------------------------------------------------------
+
+<img src="https://github.com/90rajibgarai/doc-important-links/blob/master/Architectures/GraphQL-Usecases/Usecase-3.png">
