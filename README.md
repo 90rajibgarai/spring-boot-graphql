@@ -2,28 +2,24 @@
 
 What is GraphQL ? 
 -----------------
-GraphQL is an open-source query language. It gives control to the user to query what he needs. That means using graphql we can avoid the problem of to over fetching and under fetching of the data thrugh REST API.
+GraphQL is an open-source query language. It gives control to the user to query what he needs. That means using graphql we can avoid the problem to over fetching and under fetching of the data through REST API.
 
 * GraphQL works on top of the REST API. 
-* GraphQL was developed by Facebook for developing own Facebook mobile applications.
+* GraphQL was developed by Facebook. It is used to develop Facebook mobile applications.
 
 REST vs GraphQL : 
 -----------------
-(A) Network Performance:
 
-When UI invokes a REST API, it will not have any control over the response data, whereas GraphQL provides a mechanism to specify the fields of interest in response. 
-This reduces network overload by fetching the smallest data possible.
-	
-(B) Endpoint: 	
+Network Performance :
+When UI invokes a REST API, it will not have any control over the response data, whereas GraphQL provides a mechanism to specify the fields of interest in response.This reduces network overload by fetching the smallest data possible.
 
-In REST, each resource is identified by a URI. This makes the client obliged to know each endpoint. In GraphQL, all resources are identified by a single endpoint. 
-There is no hassle of maintaining multiple URI’s.
-	
-(C) Data Fetching Strategy: 
+Endpoint : 	
+In REST, each resource is identified by a URI. This makes the client obliged to know each endpoint. In GraphQL, all resources are identified by a single endpoint.There is no hassle of maintaining multiple URI’s.
 
+Data Fetching Strategy :
 In GraphQL, we have only one endpoint. The client sends a single query with the required fields. This helps with improved network performance and avoids the over-fetching/under-fetching data problem.
 
-* GraphQL is not replacement for REST both are coexist. You need used the corresponding technology whereever it make sense for you.
+GraphQL is not a replacement for REST both coexist. You need to use the corresponding technology wherever it makes sense for you.
 
 The main terms used most commonly in GraphQL are:
 
